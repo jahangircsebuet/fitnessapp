@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8572CE2D2526B3A100363677 /* DetectingFirstTimeLaunch1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8572CE2B2526B3A100363677 /* DetectingFirstTimeLaunch1.xcdatamodeld */; };
+		8572CE542527D68000363677 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8572CE532527D68000363677 /* Gif.swift */; };
+		8572CE642528532400363677 /* ezgif.com-gif-maker_50.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8572CE5C2528532400363677 /* ezgif.com-gif-maker_50.gif */; };
+		8572CE652528532400363677 /* ezgif.com-gif-maker_12.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8572CE5D2528532400363677 /* ezgif.com-gif-maker_12.gif */; };
+		8572CE662528532400363677 /* ezgif.com-gif-maker_stand.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8572CE5E2528532400363677 /* ezgif.com-gif-maker_stand.gif */; };
+		8572CE672528532400363677 /* ezgif.com-gif-maker_200.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8572CE5F2528532400363677 /* ezgif.com-gif-maker_200.gif */; };
+		8572CE682528532400363677 /* ezgif.com-gif-maker.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8572CE602528532400363677 /* ezgif.com-gif-maker.gif */; };
+		8572CE692528532400363677 /* ezgif.com-gif-maker_25.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8572CE612528532400363677 /* ezgif.com-gif-maker_25.gif */; };
+		8572CE6A2528532400363677 /* animated-running-image-0041.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8572CE622528532400363677 /* animated-running-image-0041.gif */; };
+		8572CE6B2528532400363677 /* ezgif.com-gif-maker_300.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8572CE632528532400363677 /* ezgif.com-gif-maker_300.gif */; };
+		8572CE7D2529013700363677 /* VirtualFitnessAppTesterModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8572CE7B2529013700363677 /* VirtualFitnessAppTesterModel.xcdatamodeld */; };
+		8572CE8525294C6600363677 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8572CE8425294C6600363677 /* JournalViewController.swift */; };
+		85A43DED2525610000D8F3EA /* BackgroundOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A43DEC2525610000D8F3EA /* BackgroundOperation.swift */; };
+		85A70EF5251B12D500B1F383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A70EF4251B12D500B1F383 /* AppDelegate.swift */; };
+		85A70EF7251B12D500B1F383 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A70EF6251B12D500B1F383 /* SceneDelegate.swift */; };
+		85A70EF9251B12D500B1F383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A70EF8251B12D500B1F383 /* ViewController.swift */; };
+		85A70EFC251B12D500B1F383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A70EFA251B12D500B1F383 /* Main.storyboard */; };
+		85A70EFE251B12D800B1F383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A70EFD251B12D800B1F383 /* Assets.xcassets */; };
+		85A70F01251B12D800B1F383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A70EFF251B12D800B1F383 /* LaunchScreen.storyboard */; };
+		85A70F0C251BFC3400B1F383 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A70F0B251BFC3400B1F383 /* HealthKit.framework */; };
+		85A70F21251C25C300B1F383 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A70F20251C25C300B1F383 /* button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8572CE2C2526B3A100363677 /* DetectingFirstTimeLaunch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DetectingFirstTimeLaunch.xcdatamodel; sourceTree = "<group>"; };
+		8572CE532527D68000363677 /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		8572CE5C2528532400363677 /* ezgif.com-gif-maker_50.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-gif-maker_50.gif"; sourceTree = "<group>"; };
+		8572CE5D2528532400363677 /* ezgif.com-gif-maker_12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-gif-maker_12.gif"; sourceTree = "<group>"; };
+		8572CE5E2528532400363677 /* ezgif.com-gif-maker_stand.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-gif-maker_stand.gif"; sourceTree = "<group>"; };
+		8572CE5F2528532400363677 /* ezgif.com-gif-maker_200.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-gif-maker_200.gif"; sourceTree = "<group>"; };
+		8572CE602528532400363677 /* ezgif.com-gif-maker.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-gif-maker.gif"; sourceTree = "<group>"; };
+		8572CE612528532400363677 /* ezgif.com-gif-maker_25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-gif-maker_25.gif"; sourceTree = "<group>"; };
+		8572CE622528532400363677 /* animated-running-image-0041.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-running-image-0041.gif"; sourceTree = "<group>"; };
+		8572CE632528532400363677 /* ezgif.com-gif-maker_300.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-gif-maker_300.gif"; sourceTree = "<group>"; };
+		8572CE7C2529013700363677 /* VirtualFitnessAppTesterModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualFitnessAppTesterModel.xcdatamodel; sourceTree = "<group>"; };
+		8572CE8425294C6600363677 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		85A43DEC2525610000D8F3EA /* BackgroundOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundOperation.swift; sourceTree = "<group>"; };
+		85A70EF1251B12D500B1F383 /* VirFitnessAppTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirFitnessAppTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A70EF4251B12D500B1F383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85A70EF6251B12D500B1F383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85A70EF8251B12D500B1F383 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85A70EFB251B12D500B1F383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85A70EFD251B12D800B1F383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85A70F00251B12D800B1F383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85A70F02251B12D800B1F383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A70F09251BFC3400B1F383 /* VirFitnessAppTester.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VirFitnessAppTester.entitlements; sourceTree = "<group>"; };
+		85A70F0B251BFC3400B1F383 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		85A70F20251C25C300B1F383 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../button.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85A70EEE251B12D500B1F383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A70F0C251BFC3400B1F383 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85A70EE8251B12D500B1F383 = {
+			isa = PBXGroup;
+			children = (
+				85A70EF3251B12D500B1F383 /* VirFitnessAppTester */,
+				85A70EF2251B12D500B1F383 /* Products */,
+				85A70F0A251BFC3400B1F383 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85A70EF2251B12D500B1F383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A70EF1251B12D500B1F383 /* VirFitnessAppTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A70EF3251B12D500B1F383 /* VirFitnessAppTester */ = {
+			isa = PBXGroup;
+			children = (
+				85A70F09251BFC3400B1F383 /* VirFitnessAppTester.entitlements */,
+				85A70EF4251B12D500B1F383 /* AppDelegate.swift */,
+				85A70EF6251B12D500B1F383 /* SceneDelegate.swift */,
+				85A70EF8251B12D500B1F383 /* ViewController.swift */,
+				8572CE2B2526B3A100363677 /* DetectingFirstTimeLaunch1.xcdatamodeld */,
+				8572CE7B2529013700363677 /* VirtualFitnessAppTesterModel.xcdatamodeld */,
+				8572CE8425294C6600363677 /* JournalViewController.swift */,
+				85A70EFA251B12D500B1F383 /* Main.storyboard */,
+				85A43DEC2525610000D8F3EA /* BackgroundOperation.swift */,
+				8572CE622528532400363677 /* animated-running-image-0041.gif */,
+				8572CE5D2528532400363677 /* ezgif.com-gif-maker_12.gif */,
+				8572CE612528532400363677 /* ezgif.com-gif-maker_25.gif */,
+				85A70F20251C25C300B1F383 /* button.png */,
+				8572CE5C2528532400363677 /* ezgif.com-gif-maker_50.gif */,
+				8572CE5F2528532400363677 /* ezgif.com-gif-maker_200.gif */,
+				8572CE632528532400363677 /* ezgif.com-gif-maker_300.gif */,
+				8572CE602528532400363677 /* ezgif.com-gif-maker.gif */,
+				8572CE5E2528532400363677 /* ezgif.com-gif-maker_stand.gif */,
+				85A70EFD251B12D800B1F383 /* Assets.xcassets */,
+				85A70EFF251B12D800B1F383 /* LaunchScreen.storyboard */,
+				85A70F02251B12D800B1F383 /* Info.plist */,
+				8572CE532527D68000363677 /* Gif.swift */,
+			);
+			path = VirFitnessAppTester;
+			sourceTree = "<group>";
+		};
+		85A70F0A251BFC3400B1F383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85A70F0B251BFC3400B1F383 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85A70EF0251B12D500B1F383 /* VirFitnessAppTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A70F05251B12D800B1F383 /* Build configuration list for PBXNativeTarget "VirFitnessAppTester" */;
+			buildPhases = (
+				85A70EED251B12D500B1F383 /* Sources */,
+				85A70EEE251B12D500B1F383 /* Frameworks */,
+				85A70EEF251B12D500B1F383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirFitnessAppTester;
+			productName = VirFitnessAppTester;
+			productReference = 85A70EF1251B12D500B1F383 /* VirFitnessAppTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85A70EE9251B12D500B1F383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					85A70EF0251B12D500B1F383 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 85A70EEC251B12D500B1F383 /* Build configuration list for PBXProject "VirFitnessAppTester" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85A70EE8251B12D500B1F383;
+			productRefGroup = 85A70EF2251B12D500B1F383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85A70EF0251B12D500B1F383 /* VirFitnessAppTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85A70EEF251B12D500B1F383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8572CE682528532400363677 /* ezgif.com-gif-maker.gif in Resources */,
+				85A70F01251B12D800B1F383 /* LaunchScreen.storyboard in Resources */,
+				8572CE692528532400363677 /* ezgif.com-gif-maker_25.gif in Resources */,
+				8572CE672528532400363677 /* ezgif.com-gif-maker_200.gif in Resources */,
+				8572CE652528532400363677 /* ezgif.com-gif-maker_12.gif in Resources */,
+				8572CE642528532400363677 /* ezgif.com-gif-maker_50.gif in Resources */,
+				8572CE662528532400363677 /* ezgif.com-gif-maker_stand.gif in Resources */,
+				8572CE6A2528532400363677 /* animated-running-image-0041.gif in Resources */,
+				85A70F21251C25C300B1F383 /* button.png in Resources */,
+				8572CE6B2528532400363677 /* ezgif.com-gif-maker_300.gif in Resources */,
+				85A70EFE251B12D800B1F383 /* Assets.xcassets in Resources */,
+				85A70EFC251B12D500B1F383 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85A70EED251B12D500B1F383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8572CE8525294C6600363677 /* JournalViewController.swift in Sources */,
+				8572CE7D2529013700363677 /* VirtualFitnessAppTesterModel.xcdatamodeld in Sources */,
+				85A70EF9251B12D500B1F383 /* ViewController.swift in Sources */,
+				8572CE2D2526B3A100363677 /* DetectingFirstTimeLaunch1.xcdatamodeld in Sources */,
+				8572CE542527D68000363677 /* Gif.swift in Sources */,
+				85A43DED2525610000D8F3EA /* BackgroundOperation.swift in Sources */,
+				85A70EF5251B12D500B1F383 /* AppDelegate.swift in Sources */,
+				85A70EF7251B12D500B1F383 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85A70EFA251B12D500B1F383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A70EFB251B12D500B1F383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85A70EFF251B12D800B1F383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A70F00251B12D800B1F383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85A70F03251B12D800B1F383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85A70F04251B12D800B1F383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85A70F06251B12D800B1F383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VirFitnessAppTester/VirFitnessAppTester.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G36L585XX4;
+				INFOPLIST_FILE = VirFitnessAppTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Programming.VirFitnessAppTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85A70F07251B12D800B1F383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VirFitnessAppTester/VirFitnessAppTester.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G36L585XX4;
+				INFOPLIST_FILE = VirFitnessAppTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Programming.VirFitnessAppTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85A70EEC251B12D500B1F383 /* Build configuration list for PBXProject "VirFitnessAppTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A70F03251B12D800B1F383 /* Debug */,
+				85A70F04251B12D800B1F383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A70F05251B12D800B1F383 /* Build configuration list for PBXNativeTarget "VirFitnessAppTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A70F06251B12D800B1F383 /* Debug */,
+				85A70F07251B12D800B1F383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8572CE2B2526B3A100363677 /* DetectingFirstTimeLaunch1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8572CE2C2526B3A100363677 /* DetectingFirstTimeLaunch.xcdatamodel */,
+			);
+			currentVersion = 8572CE2C2526B3A100363677 /* DetectingFirstTimeLaunch.xcdatamodel */;
+			path = DetectingFirstTimeLaunch1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		8572CE7B2529013700363677 /* VirtualFitnessAppTesterModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8572CE7C2529013700363677 /* VirtualFitnessAppTesterModel.xcdatamodel */,
+			);
+			currentVersion = 8572CE7C2529013700363677 /* VirtualFitnessAppTesterModel.xcdatamodel */;
+			path = VirtualFitnessAppTesterModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85A70EE9251B12D500B1F383 /* Project object */;
+}

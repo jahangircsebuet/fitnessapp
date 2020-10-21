@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Journal" representedClassName="Journal" syncable="YES" codeGenerationType="class">
+        <attribute name="entry_time" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="step_count" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="step_distance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Journal" positionX="-54" positionY="-9" width="128" height="88"/>
+    </elements>
+</model>
